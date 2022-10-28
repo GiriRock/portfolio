@@ -12,6 +12,7 @@ import { fetchExperiences } from '../utils/fetchExperiences'
 import { fetchSkills } from '../utils/fetchSkills'
 import { fetchSocials } from '../utils/fetchSocials'
 
+
 type Props = {
   pageinfo: PageInfo
   experiences: Experience[]
