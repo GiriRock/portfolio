@@ -30,8 +30,8 @@ const ExperienceCard = ({experience} : Props) => {
         className='w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center'
         src={urlFor(experience?.companypic).url()} alt="" />
 
-        <div className='px-0 md:px-10 flex flex-col items-center justify-center'>
-            <h4 className='text-4xl font-light'>{experience.jobtitle}</h4>
+        <div className='px-0 md:px-10 flex flex-col items-center justify-center break-all w-[500px] md:w-[600px] xl:w-[900px]'>
+            <p className='text-3xl md:text-4xl font-light break-words '>{experience.jobtitle}</p>
             <p className='font-bold text-2xl mt-1'>{experience.companyname}</p>
             <div className='flex space-x-2 my-2 items-center justify-center'>
                 {skills.map((skill)=>(<img key={skill._id} className='h-10 w-10 rounded-full' src={urlFor(skill.image).url()} alt="" />))}

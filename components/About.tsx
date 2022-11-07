@@ -23,7 +23,7 @@ const About = ({pageinfo}: Props) => {
 
             className='flex flex-col relative h-screen text-center md:text-left md:flex-row 
     max-w-7xl px-10 justify-evenly mx-auto items-center'>
-            <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>About</h3>
+            <h3 className='absolute top-24 uppercase tracking-[15px] md:tracking-[20px] text-gray-500 text-2xl'>About</h3>
             <motion.img
 
                 initial={{
@@ -43,11 +43,7 @@ const About = ({pageinfo}: Props) => {
             <div className='space-y-10 px-0 md:px-10'>
                 <h4 className='text-4xl font-semibold'>Here is a <span className='underline decoration-[#F7AB0A]/50'>little</span> background</h4>
                 <p className='text-base'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sagittis felis eget massa efficitur ornare.
-                    Integer dignissim elit id efficitur auctor. Nam nunc enim, mollis eget leo sit amet, volutpat aliquet diam.
-                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent convallis venenatis justo, et ornare quam finibus in.
-                    Mauris gravida, ex fermentum interdum porta, erat dui tristique velit, vitae iaculis magna risus ac erat. Aliquam vehicula velit ut arcu ornare suscipit.
-                    Vivamus ultricies maximus neque vel commodo. Duis vitae aliquam ex. Nunc molestie nisi non arcu congue fringilla. Curabitur nec maximus dui, eu tempor dolor.
+                Hi, I'm Giridharan a computer science major who is interest in coding and exploring new technologies. I'm fullstack developer who loves javascript and trying to learn typescript.
                 </p>
             </div>
 

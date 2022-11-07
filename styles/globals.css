@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,300;0,400;1,300&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,3 +12,8 @@
         @apply outline-none bg-slate-400/10 rounded-sm border-b px-6 py-4 border-[#242424] text-gray-500 transition-all focus:border-[#f7ab0a]/40 focus:text-[#f7ab0a]/40 hover:border-[#f7ab0a]/40 
     }
 }
+
+*{
+    font-family: 'Prompt', sans-serif;
+}
+
