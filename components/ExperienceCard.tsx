@@ -36,7 +36,7 @@ const ExperienceCard = ({experience} : Props) => {
             <div className='flex space-x-2 my-2 items-center justify-center'>
                 {skills.map((skill)=>(<img key={skill._id} className='h-10 w-10 rounded-full' src={urlFor(skill.image).url()} alt="" />))}
             </div>
-            <p className='text-center uppercase py-5 text-gray-300'>2020 - 2021</p>
+            <p className='text-center uppercase py-5 text-gray-300'>{experience.duration}</p>
             
             
             {/* <ul className='list-disc space-y-4 ml-5 text-lg hidden'>
