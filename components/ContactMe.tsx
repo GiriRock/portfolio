@@ -23,7 +23,7 @@ function ContactMe({ pageinfo }: Props) {
                 Contact Me
             </h3>
 
-            <div className='flex flex-col space-y-10'>
+            <div className='flex flex-col space-y-10 mx-auto w-full'>
                 <h4 className='text-4xl font-semibold text-center'>
                     I have got just what you need.{" "}
                     <span className='decoration-[#f7ab0a]/50 underline'>Let's Talk.</span>
@@ -43,10 +43,10 @@ function ContactMe({ pageinfo }: Props) {
                     </div>
                 </div>
 
-                <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-fit mx-auto'>
+                <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-full mx-auto'>
                     <div className='flex space-x-2'>
-                        <input {...register('name')} className='contactInput' type="text" placeholder='Name'/>
-                        <input {...register('email')} className='contactInput' type="email" placeholder='Email'/>
+                        <input {...register('name')} className='contactInput w-1/2' type="text" placeholder='Name'/>
+                        <input {...register('email')} className='contactInput w-1/2' type="email" placeholder='Email'/>
                     </div>
                     <input {...register('subject')} className='contactInput' type="text" placeholder='Subject'/>
                     <textarea {...register('message')} className='contactInput' placeholder='Message'/>
