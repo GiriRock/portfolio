@@ -30,25 +30,27 @@ const Home = ({ pageinfo, experiences, skills, socials }: Props) => {
 
       <Header socials={socials} />
 
-      <section id='hero' className='snap-start'>
-        <Hero pageinfo={pageinfo}/>
-      </section>
+      <div className=''>
+        <section id='hero' className='snap-start'>
+          <Hero pageinfo={pageinfo}/>
+        </section>
 
-      <section id='about' className='snap-center'>
-        <About pageinfo={pageinfo}/>
-      </section>
+        <section id='about' className='snap-center'>
+          <About pageinfo={pageinfo}/>
+        </section>
 
-      <section id='experience' className='snap-center'>
-        <WorkExperience experiences={experiences}/>
-      </section>
+        <section id='experience' className='snap-center'>
+          <WorkExperience experiences={experiences}/>
+        </section>
 
-      <section id='skills' className='snap-start'>
-        <Skills skills={skills}/>
-      </section>
+        <section id='skills' className='snap-start'>
+          <Skills skills={skills}/>
+        </section>
 
-      <section id='contact' className='snap-start'>
-        <ContactMe pageinfo = {pageinfo}/>
-      </section>
+        <section id='contact' className='snap-start'>
+          <ContactMe pageinfo = {pageinfo}/>
+        </section>  
+      </div>      
 
     </div>
   )

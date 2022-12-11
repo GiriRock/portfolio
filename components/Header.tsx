@@ -12,7 +12,7 @@ function Header({ socials }: Props) {
         open('mailto:giridharanrock@gmail.com')
     }
     return (
-        <header className='sticky top-0 flex items-start justify-between max-w-7xl mx-auto z-19 xl:items-center p-5 bg-transparent'>
+        <header className='sticky top-0 flex items-start justify-between max-w-7xl mx-auto z-10 xl:items-center p-5 bg-transparent'>
             {/* Icons (Social) */}
             <motion.div
             initial={{

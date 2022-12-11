@@ -9,7 +9,7 @@ type Props = {
 
 const About = ({pageinfo}: Props) => {
     return (
-        <motion.div
+        <motion.div 
 
             initial={{
                 opacity: 0
@@ -37,11 +37,11 @@ const About = ({pageinfo}: Props) => {
                 transition={{
                     duration: 1
                 }}
-                className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
+                className='-mb-20 flex-shrink-0 w-40 h-40 rounded-full object-cover md:rounded-lg md:w-64 md:h-64 lg:w-[400px] lg:h-[400px] xl:w-[500px] xl:h-[500px]'
                 src={urlFor(pageinfo?.aboutpic).url()} />
 
             <div className='space-y-10 px-0 md:px-10'>
-                <h4 className='text-4xl font-semibold'>Here is a <span className='underline decoration-[#F7AB0A]/50'>little</span> background</h4>
+                <h4 className='text-2xl md:text-4xl font-semibold'>Here is a <span className='underline decoration-[#F7AB0A]/50'>little</span> background</h4>
                 <p className='text-base'>
                 Hi, I'm Giridharan a computer science major who is interest in coding and exploring new technologies. I'm fullstack developer who loves javascript and trying to learn typescript.
                 </p>
